@@ -18,31 +18,60 @@ h2 span {
    background: rgba(0, 0, 0, 0.7);
    padding: 10px;
 }*/
-.body {
-  width: 1300px;
+
+body {
+  width: auto;
 }
 /******** images ******/
-
+.image-container {
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+}
+.image-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(93, 151, 187, .4);
+}
+.image-container:hover::after {
+    background-color: rgba(0, 0, 0, 0);
+}
 .surfingpic {
   width: 323px;
   height: 330px;
 }
 .beer {
-  width: 323px;
+  width: 325px;
   height: 330px;
 }
 .zach {
-  width: 323px;
+  width: 324px;
   height: 330px;
 }
 .stocked {
-  width: 323px;
+  width: 325px;
   height: 330px;
 }
+.white {
+  width: 1300px;
+}
 
-img {
+/img {
+  content: "";
+  display: block;
+  position: absolute;
+  font
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   opacity: .4;
-  background: rgba(93, 151, 187, 1);
+  background: rgba(93, 151, 187, .4);
 }
 img:hover {
   opacity: 1;
