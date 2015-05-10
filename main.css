@@ -6,11 +6,16 @@
 body {
   margin: 0px;
   width: 1300px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+
 }
+
+
 /*    Top of page text       */
 .top-links {
-  text-align: center;
-  margin-top: 22px;
+  vertical-align: middle;
+
 }
 .paddleco {
   margin-right: 599px;
@@ -23,6 +28,11 @@ body {
   font-size: 4em;
   padding-bottom: 0;
   vertical-align: middle;
+}
+.surfing-heading {
+  text-align: center;
+  position: relative;
+
 }
 /*    Article section of body*/
 article {
@@ -104,13 +114,49 @@ nav {
 }
 
 /******** images ******/
+.logotop {
+  display: inline-block;
+}
 .header-img {
   position: relative;
 }
-#foot {
-  margin: 0px;
+
+.header-img {
   display: inline-block;
-  height: 330px;
+  position: relative;
+  margin: 0px;
+}
+.header-img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 255, .4);
+}
+.header-img:hover::after {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.image-container {
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+}
+.image-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 255, .4);
+}
+.image-container:hover::after {
+    background-color: rgba(0, 0, 0, 0);
 }
 .surfingpic {
   width: 323px;
