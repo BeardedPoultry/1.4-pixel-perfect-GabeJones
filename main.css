@@ -6,6 +6,7 @@
 body {
   margin: 0px;
   width: 1300px;
+  height: 2104px
   font-family: 'Open Sans', sans-serif;
   font-family: 'Oswald', sans-serif;
 
@@ -102,6 +103,16 @@ ul li {
 .readLater .readComments .sharePost {
   height: 30px;
 }
+.popular-post {
+  height: 146;
+}
+.popularseparate {
+  text-align: center;
+  font-size: 3.56em;
+  padding-top: 68px;
+  padding-bottom: 42px;
+
+}
 footer {
   height: 96px;
   width: 1300px;
@@ -112,7 +123,18 @@ footer {
 nav {
   margin-bottom: 68px;
 }
-
+.navelem {
+  margin-right: 9px;
+  margin-left: 9px;
+  padding-bottom: 42px;
+}
+.positioning{
+  display: inline-block;
+  vertical-align: middle;
+}
+.theironyard {
+  margin-right: 297px;
+}
 /******** images ******/
 .logotop {
   display: inline-block;
@@ -144,6 +166,10 @@ nav {
   display: inline-block;
   position: relative;
   margin: 0px;
+  height: 330px;
+}
+.foot-images {
+  height: 330px;
 }
 .image-container::after {
   content: "";
